@@ -58,8 +58,8 @@ h1,h2,.wordmark,.campaign-title p{font-family:'Suedtirol Next',sans-serif;font-w
 body,button,.wordmark small,.intro,.answer,.result-copy,.quiet,.small,.footer-logos p,.result .note,.note span,.q-count,.sticker,.art-caption,.footer-meta{font-family:'Source Sans 3',Arial,sans-serif}
 .result-copy,.welcome-instruction,.answer{font-weight:400}
 
-/* Piedino: solo il logo del consorzio, ingrandito del 20%. */
-.footer-logos .logo-region{width:109px;height:92px}
-@media(max-width:950px){.footer-logos .logo-region{width:90px;height:82px}}
-@media(max-width:700px){.footer-logos .logo-region{width:65px;height:60px}}
-@media(orientation:landscape) and (max-height:850px) and (min-width:701px){.footer-logos .logo-region{width:90px;height:72px}}
+/* Piedino: logo del consorzio ingrandito di un ulteriore 30%. */
+.footer-logos .logo-region{width:142px;height:120px}
+@media(max-width:950px){.footer-logos .logo-region{width:117px;height:107px}}
+@media(max-width:700px){.footer-logos .logo-region{width:85px;height:78px}}
+@media(orientation:landscape) and (max-height:850px) and (min-width:701px){.footer-logos .logo-region{width:117px;height:94px}}

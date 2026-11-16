@@ -2,7 +2,7 @@
 
 Quiz della personalità MondoMela per iPad: quattro domande, tre risposte per domanda e tre profili finali.
 
-Il piedino mostra solo il logo del consorzio Alto Adige/Südtirol in basso a sinistra, ingrandito del 20%. Titoli in Suedtirol Next; sottotitoli e testo in Source Sans 3.
+Il piedino mostra solo il logo del consorzio Alto Adige/Südtirol in basso a sinistra, ingrandito del 30% rispetto alla precedente versione. Titoli in Suedtirol Next; sottotitoli e testo in Source Sans 3.
 
 ## Pubblicazione GitHub Pages
 
