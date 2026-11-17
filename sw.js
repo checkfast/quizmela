@@ -1,4 +1,4 @@
-const CACHE='melamood-v11';
+const CACHE='melamood-v12';
 const FILES=["./assets/source-sans-3-regular.woff2","./", "./index.html", "./style.css", "./content.js", "./app.js", "./manifest.webmanifest", "./icon.svg", "./icon.png", "./assets/open-sans.woff2", "./assets/open-sans-600.woff2", "./assets/envy-client.png", "./assets/granny-client.jpg", "./assets/cosmic-client.jpg", "./assets/campaign/suedtirol-pro.ttf", "./assets/campaign/suedtirol-next.ttf", "./assets/campaign/photo-horizontal.jpg", "./assets/campaign/photo-vertical.jpg", "./assets/campaign/logo-suedtirol.jpg"];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES.map(file=>new Request(file,{cache:"reload"})))).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('melamood-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
